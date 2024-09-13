@@ -12,9 +12,6 @@ __pycache__/
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore dataset files
-*.csv
-
 # Ignore zip files (if you don't want to track them)
 *.zip
 
