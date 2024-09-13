@@ -34,3 +34,5 @@ entity_unit_map = {
 }
 
 allowed_units = {unit for entity in entity_unit_map for unit in entity_unit_map[entity]}
+
+DATASET_PATH = "https://drive.google.com/drive/folders/1-1cflz7Jdgly8xQmZtk_DYYOslEZr8Hq?usp=sharing"
