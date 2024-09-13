@@ -1,0 +1,46 @@
+# Ignore the virtual environment
+env/
+venv/
+ENV/
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset files
+*.csv
+
+# Ignore zip files (if you don't want to track them)
+*.zip
+
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore pyvenv config file (optional, if you don't want to include virtual environment config)
+pyvenv.cfg
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore pip and wheel cache
+*.egg-info/
+.eggs/
+dist/
+build/
+*.whl
+
+# Ignore specific virtual environment binaries and configuration
+env/bin/activate
+env/bin/activate.*
+env/bin/python*
+env/lib/python*/
+
+# Ignore tqdm files (if any)
+env/bin/tqdm
